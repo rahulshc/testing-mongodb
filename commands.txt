@@ -3,3 +3,33 @@ db.diseaseRecords.insertMany() within parentheses copy paste test json data
 db.diseaseRecords.updateOne({firstName: "Rahul"}, {$set: {firstName: "Nitin", age: "29", history: [{disease: "jaundice", treatment: "Liv52"}]}})
 db.diseaseRecords.find({age: {$gt: 20}}).pretty()
 db.diseaseRecords.deleteMany({"history.disease": "cold"})
+
+{
+        "_id" : ObjectId("5e76396c449f99078b12ae7e"),
+        "title" : "My First Post!",
+        "text" : "This is my first Post",
+        "tags" : [
+                "new",
+                "tech"
+        ],
+        "comments" : [
+                {
+                        "text" : "I like this post",
+                        "author" : ObjectId("5e76389d449f99078b12ae7c")
+                }
+        ],
+        "creator" : ObjectId("5e76389d449f99078b12ae7d")
+}
+
+mongod --dbpath pathname --logpath logpathname
+
+dbpath can be a folder name however logpath must point to a log file log.log for example
+
+sudo mongod --fork --logpath logpathname
+
+forking runs the mongodb as a background and our terminal can still be used forother tasks
+
+net start mongodb
+net stop mongodb 
+
+to start or stop mongodb background service
