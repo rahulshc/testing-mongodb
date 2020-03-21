@@ -1,0 +1,5 @@
+use patients
+db.diseaseRecords.insertMany() within parentheses copy paste test json data
+db.diseaseRecords.updateOne({firstName: "Rahul"}, {$set: {firstName: "Nitin", age: "29", history: [{disease: "jaundice", treatment: "Liv52"}]}})
+db.diseaseRecords.find({age: {$gt: 20}}).pretty()
+db.diseaseRecords.deleteMany({"history.disease": "cold"})

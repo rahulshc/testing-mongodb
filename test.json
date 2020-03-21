@@ -1,0 +1,39 @@
+[{
+    "firstName": "Neeraj",
+    "lastName": "Kumar",
+    "age": 28,
+    "history": [
+        {"disease": "cold", "treatment": "paracetamol"},
+        {"disease": "fever", "treatment": "intraveinous-injection"}
+    ]
+},
+
+{
+    "firstName": "Rahul",
+    "lastName": "Kumar",
+    "age": 27,
+    "history": [
+        {"disease": "cold", "treatment": "anti viral"}
+    ]
+},
+{
+    "firstName": "Ritu",
+    "lastName": "Kumari",
+    "age": 18,
+    "history": [
+        {"disease": "pimples", "treatment": "skin-lotion"},
+        {"disease": "smallpox", "treatment": "vaccine"}
+    ]
+},
+
+{
+    "firstName": "Kailash",
+    "lastName": "Singh",
+    "age": 26,
+    "history": [
+        {"disease": "diabetes", "treatment": "anti diabetes pills "},
+        {"disease": "scitica", "treatment": "massage"}
+    ]
+}
+
+]
